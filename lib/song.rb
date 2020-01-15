@@ -60,8 +60,8 @@ class Song
     song = self.new
     song.name = song_arr[0]
     song.artist_name = song_arr[1].chomp(".mp3")
-    song_arr
-    song_name
+    song.artist_name
+    song.name 
   
     end
     
