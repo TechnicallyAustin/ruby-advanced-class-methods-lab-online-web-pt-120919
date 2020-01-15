@@ -67,7 +67,7 @@ class Song
     
   def self.create_from_filename(name)
     self.new_from_filename(name)
-    @@all << self.name 
+    @@all << song.name 
    
     end
     
