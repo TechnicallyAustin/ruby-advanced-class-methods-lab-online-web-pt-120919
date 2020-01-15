@@ -59,7 +59,7 @@ class Song
     song_arr = filename.split(" - ")
     song = self.new
     song.name = song_arr[0]
-    song.artist = song_arr[1].chomp(".mp3")
+    song.artist_name = song_arr[1].chomp(".mp3")
     song_arr
     song_name
   
