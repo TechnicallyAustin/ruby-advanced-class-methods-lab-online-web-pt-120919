@@ -71,7 +71,7 @@ class Song
     song = self.new
     song.name = song_arr[1]
     song.artist_name = song_arr[0]
-    Song.save 
+    song.save 
     song 
    
     end
