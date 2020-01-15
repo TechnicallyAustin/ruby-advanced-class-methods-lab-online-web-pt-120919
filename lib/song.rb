@@ -76,10 +76,7 @@ class Song
    
     end
     
-  #def self.destroy_all
-   # @@all.each do |i| i == self
-    #@all.pop(i)
-  #end
-   # end 
+  def self.destroy_all
+    @all.delete_if
   
 end
