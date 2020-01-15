@@ -56,13 +56,13 @@ class Song
     end
     
   def self.new_from_filename(filename)
-    song_arr = []
-    song_arr = filename.split(/[.-]/)
-    final_name = song_arr[1]
-    final_name
-    binding.pry
-   
-    
+    song_arr = filename.split(" - ")
+    song = self.new
+    song.name = song_arr[0]
+    song.artist = song_arr[1].chomp(".mp3")
+    song_arr
+    song_name
+  
     end
     
   def self.create_from_file_name
